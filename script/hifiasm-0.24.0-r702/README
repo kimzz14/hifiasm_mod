@@ -1,0 +1,13 @@
+htab.cpp
+
+void *ha_ft_gen(const hifiasm_opt_t *asm_opt, All_reads *rs, int *hom_cov, int is_hp_mode, int read_from_store)
+peak_hom = ha_analyze_count(YAK_N_COUNTS, asm_opt->min_hist_kmer_cnt, asm_opt->hg_size>0?(h->bs/asm_opt->hg_size):(-1), cnt, &peak_het);
+peak_hom = 53; //KJH 2024.12.26
+peak_het = -1; //KJH 2024.12.26
+
+ha_pt_t *ha_pt_gen(const hifiasm_opt_t *asm_opt, const void *flt_tab, int read_from_store, int is_hp_mode, All_reads *rs, int *hom_cov, int *het_cov)
+peak_hom = ha_analyze_count(YAK_N_COUNTS, asm_opt->min_hist_kmer_cnt, asm_opt->hg_size>0?(ct->bs/asm_opt->hg_size):(-1), cnt, &peak_het);
+peak_hom = 53; //KJH 2024.12.26
+peak_het = -1; //KJH 2024.12.26
+
+diff hifiasm_mod/htab.cpp hifiasm_ori/htab.cpp
